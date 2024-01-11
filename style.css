@@ -1,0 +1,463 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+.icon{
+    margin-left:2rem;
+    margin-right:1.25rem;
+    margin-top:2rem;
+    
+}
+.hamburger{
+    width:20px;
+    height:2px;
+    background-color: black;
+    margin-top: 6px;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    padding-top:8px ;
+    padding-bottom:8px;
+}
+
+.header img{
+    width:50px;
+}
+
+.top{
+    position:absolute;
+    left:280px;
+    width:900px;
+}
+#bottom{
+    position: relative;
+    bottom: 10px;
+}
+.sol{
+    display:flex;
+}
+
+#earth{
+    object-fit: fill;
+    position: ;
+    width:50px;
+    height:3.125em;
+    margin-right: 3rem;
+    
+}
+
+#bos{
+    position:relative;
+    margin-bottom: 0;
+}
+
+.header .sol{
+    margin-left: 0;
+}
+
+#search{
+    width:420px;
+    margin-left:20px;
+    margin-right:0;
+    margin-top:10px;
+    padding-left: 36px;
+    height:32px;
+    padding: 4px 8px;
+    font-family:inherit;
+    border:1px solid #a2a9b1;
+    border-right:none
+
+
+}
+
+
+
+#ara{
+    position:relative;
+    top:3px;
+    left:-4px;
+    margin-left:0;
+    padding: 6px;
+    flex-grow:1;
+    margin-top: 10px;
+    height:32px;
+    border:1px solid #a2a9b1;
+    text-align:center;
+    font-weight: 400;
+} 
+
+
+.ara{
+    height:30px;
+    margin:0;
+    padding:0;
+    display:inline-block;
+    align-items:center;
+}
+
+
+
+.icon{
+    position:relative;
+    top:-12px;
+}
+
+.sag{
+    margin-left:280px;
+    margin-top:15px;
+    color:blue;
+    text-decoration:none;
+
+}
+
+.tag{
+    text-decoration: none;
+}
+#nokta{
+    font-size: 36px;
+    color:black;
+}
+
+.tag:hover{
+    text-decoration:underline;
+}
+
+.cizgi{
+    display:flex;
+    width:100%;
+    padding: 20px 100px 0px 100px;
+   
+}
+
+.cizgi a{
+    text-decoration: none;
+}
+
+.left{
+    margin-left:11rem;
+    margin-right: 25rem;
+}
+
+#ana{
+    color:black;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+
+.right a{
+    padding-right:10px;
+}
+
+#oku,#arac{
+    color:black;
+}
+
+
+
+#kaynak:hover,#gecmis:hover{
+    text-decoration: underline;
+}
+
+.margin{
+    display:flex;
+    width:890px;;
+    margin-left:20%;
+    height:125px;
+    margin-top:8px;
+    overflow: hidden;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Wikipedia_logo_letters_banner.svg");
+    background-size: cover;
+    border:1px solid #c8ccd1;
+
+}
+
+.margin-top-left{
+    padding:8px 10px 13px 24px; 
+
+}
+
+
+
+.mavi{
+    text-decoration:none;
+    color:#795cb2;
+}
+
+.mavi:hover{
+    text-decoration: underline;
+}
+
+.siyah{
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.siyah:hover{
+    color:blue;
+    background-color: beige;
+}
+
+#madde{
+    padding:5px 7px;
+    background-color:#f8f9fa;
+    font-size:1em;
+    border:1px solid #a2a9b1;
+}
+
+.middle{
+    display:flex;
+    margin-left:20%;
+    margin-right:14%;
+}
+
+.middle p{
+    font-size: 0.95rem;
+    line-height:1.5714285;
+}
+
+.search input{
+    border:#d4d4d4;
+}
+
+
+.middle-left{
+    margin-top: 21px;
+    border:1px solid #d4d4d4;
+    width:55%;
+    margin-right:10px;
+}
+
+.middle-left .hafta{
+    background-color:#cedff2;
+    padding: 1px;
+    border: 1px solid #5897dd; 
+    font-weight: bold;
+    text-decoration: none; 
+    display:block; 
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+#tarih{
+    background-color:rgb(255,214,192);
+    padding: 1px;
+    border: 1px solid rgb(230,141,93); 
+    font-weight: bold;
+    display:block; 
+    margin-left: 5px;
+    margin-right:5px;
+    text-decoration: none;
+}
+.biliyo{
+    background-color:#cedff2;
+    padding: 1px;
+    border: 1px solid #5897dd; 
+    font-weight: bold;
+    text-decoration: none; 
+    display:block; 
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:27px;
+}
+
+.seckin{
+    background-color:rgb(255,214,192);
+    padding: 1px;
+    border: 1px solid rgb(230,141,93); 
+    font-weight: bold;
+    text-decoration: none; 
+    display:block; 
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+
+.middle-left a{
+    background-color:#ccfcf9;
+    padding: 1px;
+    border: 1px solid rgb(76, 203, 195); 
+    font-weight: bold;
+    text-decoration: none; 
+    display:block; 
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+
+
+.diger .baslik{
+    background-color: rgba(255,204,102);
+    padding:3px;
+    padding-left: 10px;
+    border: 1px solid rgb(204, 163, 81); 
+    font-weight: bold;
+    text-decoration: none; 
+    display:block; 
+    margin-left: 7px;
+    margin-right:7px;
+    margin-top:5px;
+}
+
+
+.diger ul{
+    display:flex;
+    
+}
+
+.diger p{
+    margin-left:15px;
+}
+
+.diger .dil{
+    text-decoration:dashed;
+    margin-right:20px;
+    font-size:15px;
+    padding: 0;
+}
+
+
+.middle-left a:hover{
+    text-decoration:dashed;
+}
+
+
+
+.middle-left p{
+    padding-left: 5px;
+    padding-right:5px;
+}
+
+.resim{
+    float:left;
+    width:200px;
+    height:125px;
+    margin:1px 5px 12px 10px;
+}
+
+.middle-right{
+    width:45%;
+    border:1px solid #d4d4d4;
+    margin-top:21px;
+}
+.middle-right h3{
+    background-color: #ffd6c0;
+    padding: 1px;
+    border: 1px solid #ffd6c0;
+    margin-top:10px;
+    
+}
+
+.middle-right p{
+    padding-left: 5px;
+    padding-right:5px;
+}
+
+.Aralık{
+    text-decoration: none;
+    padding-left: 6px;
+    font-weight: bold;
+    font-size: 0.87rem;
+}
+
+.Aralık:hover{
+    text-decoration: dashed;
+}
+
+#marconi{
+    float:right;
+    width:100px;
+    height:125px;
+    margin-top:40px;
+    padding-right: 8px;
+}
+
+.tarih{
+    float:right;
+    text-decoration: none;
+}
+
+#blue{
+    background-color: #99ccff;
+}
+
+.bil{
+    padding: 5px;
+    
+}
+
+#resim{
+    float:right;
+    width:66px;
+    height:100px;
+}
+
+.par{
+    letter-spacing: 0.4px;
+}
+
+.mac{
+    float:right;
+    width:150px;
+    height:100px;
+    margin-right: 10px;
+    padding-top:10px ;
+}
+
+.dün{
+    border:1px solid;
+    margin-top:10px;
+    margin-left:20%;
+    margin-right:14%;
+}
+
+.seckin{
+    background-color: #f2c3c4;
+    border:1px solid #e05f62;
+}
+
+.mekik{
+    display:block;
+    width:300px;
+    height:200px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.discover{
+    padding:10px;
+
+}
+
+.fa{
+    position:relative;
+    left:420px;
+}
+
+input[type="text"]::placeholder {
+    padding-left: 100px;
+    font-size:16px;
+}
+
+.header input:hover{
+    border:1px solid blue;
+}
+
+
+
+
